@@ -1,0 +1,53 @@
+.form {
+  border: 2px solid #f1f1f1;
+}
+
+.inp{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+.btno {
+  background-color: red;
+  color: white;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+.btno:hover{
+opacity: 0.8;
+}
+a:hover{
+	text-decoration: none;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 8px 0;
+}
+
+img.avatar {
+  width:25%;
+  border-radius:25%;
+}
+.form-control, .j{
+	border-radius: 0;
+}

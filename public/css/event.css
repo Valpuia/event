@@ -1,0 +1,59 @@
+.event {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.event:hover .image {
+  opacity: 0.1;
+}
+
+.event:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 25px;
+}
+.text2{
+  color: black;
+}
+.btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+.btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .h{
+    height: 450px;
+    overflow-y: scroll;
+    border-radius: 0;
+  }
+.form-control {
+      border-radius: 0;
+  }
